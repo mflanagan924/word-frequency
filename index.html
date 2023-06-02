@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Voice to Text</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="main-title">Word Frequency Chart</h1>
+  <div id="instructions">
+    <select id="language-select" onchange="languageChange()">
+      <option value="en-US">English (United States)</option>
+      <option value="fr-FR">French (France)</option>
+    </select>
+    <p id="instruction-text">You can use this word frequency counter to show the frequency of the words that you say.</p>
+    <p id="directions-text">Directions:</p>
+    <ul id="directions-list">
+      <li id="direction-1">Press "Start Recording" to record your voice.</li>
+      <li id="direction-2">Press "Pause Recording" to pause.</li>
+      <li id="direction-3">Press "Count Words" to create a frequency table of the words you said.</li>
+      <li id="direction-4">If you want to either reset the input or the table, press the corresponding "Reset" buttons.</li>
+    </ul>
+  </div>
+  <div id="container">
+    <div>
+      <button id="myButton" onclick="toggleListening()"></button>
+      <button id="reset-transcript" onclick="resetTranscript()"></button>
+      <div id="transcripts"></div>
+      <div id="input-container">
+        <textarea id="transcript-input" placeholder="..."></textarea>
+      </div>
+      <button id="countWordsButton" onclick="countWords()"></button>
+      <button id="resetTableButton" onclick="resetTable()"></button>
+      
+      <div id="output"></div>
+      <button id="exportButton" onclick="exportTableToCSV('table.csv')" class="export-button"></button>
+    </div>
+  </div>
+  
+   
+
+
+  <script src="script.js"></script>
+</body>
+</html>

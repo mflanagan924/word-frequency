@@ -1,0 +1,106 @@
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#transcript-input{
+    width: 50vw;
+    min-width: 400px;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 25vw;
+    min-width: 200px;
+    max-width: 300px;
+    height: 5vw;
+    max-height: 50px;
+    border-radius: 10px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+#myButton {
+    color: black
+  }
+  
+#myButton.clicked {
+    background-color: #ba0202;
+    color: white;
+    border: none;
+    
+  }
+
+#directions-text{
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+#instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 10px;
+
+}
+
+.export-button {
+    display: none;
+  }
+  
+  .export-button.show {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #myButton.clicked {
+    animation: blink 1.5s infinite;
+  }
+  
+  @keyframes blink {
+    0% { background-color: red; color:white;}
+    50% { background-color: grey; color: black; border: solid;}
+    100% { background-color: red; color: white;}
+  }
+  
