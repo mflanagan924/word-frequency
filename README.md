@@ -11,22 +11,21 @@ This word frequency app allows you to record your voice and then creat a table t
 
 ## Demo
 
-View project demo at [https://mflanagan924.github.io/memory-card-game/](https://mflanagan924.github.io/memory-card-game/).
+View project demo at [https://mflanagan924.github.io/word-frequency/](https://mflanagan924.github.io/word-frequency/).
 
 ## Preview
 
 Homepage
 
-<img src="https://raw.githubusercontent.com/mflanagan924/memory-card-game/main/Preview.PNG"></img>
+<img src="https://raw.githubusercontent.com/mflanagan924/word-frequency/main/preview.PNG"></img>
+
+Showing the table
+
+<img src="https://raw.githubusercontent.com/mflanagan924/word-frequency/main/example.PNG"></img>
 
 ## Instructions
 
-Try matching the country flag to the country name. This game is not as easy as it seems because it is testing you on flags that look very similar.
-
-* Level 1: Norway, Iceland, Kenya, South Sudan, Italy, Mexico, Peru, and Canada
-* Level 2: Columbia, Venezuela, Ecuador, USA, Malaysia, Liberia, Hungary, and Tajikistan
-* Level 3: Andorra, Moldova, India, Niger, Bolivia, Ghana, Haiti, and Liechtenstein
-* Level 4: Russia, Slovenia, Slovakia, Monaco, Indonesia, Poland, Bahrain, and Qatar
-* Level 5: Argentina, El Salvador, Nicaragua, Honduras, Netherlands, Luxembourg, Croatia, and Paraguay
-* Level 6: Egypt, Iraq, Yemen, Sudan, and Syria
-* Level 7: Australia, New Zealand, Chad, Romania, Guinea, Mali, Ireland, and Ivory Coast
+* Press "Record" to record your voice. You will know that it is recording as the button will be blinking red.
+* Press the same button again to pause.
+* Press "Count Words" to create a frequency table of the words you said.
+* If you want to either reset the input or the table, press the corresponding "Reset" buttons.
