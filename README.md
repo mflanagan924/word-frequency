@@ -9,6 +9,7 @@ This word frequency app allows you to record your voice and then creat a table t
 * CSS
 * Javascript
 * CSV tables
+* Web Speech API
 
 ## Demo
 
